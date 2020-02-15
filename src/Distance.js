@@ -1,7 +1,7 @@
 import React from "react"
 
 class Distance extends React.Component {
-    // here to test
+    // here to test 2
     constructor(prop){
         super()
         this.state = {
