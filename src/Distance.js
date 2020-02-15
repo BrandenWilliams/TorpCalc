@@ -1,7 +1,6 @@
 import React from "react"
 
 class Distance extends React.Component {
-    // here to test 2
     constructor(prop){
         super()
         this.state = {
@@ -25,7 +24,7 @@ class Distance extends React.Component {
         this.distCalc = this.state.mass / this.state.arch
         return (
             <div>
-                <form>
+                <form> test 
                     Enter Mass Height: 
                     <input 
                         type="number"
