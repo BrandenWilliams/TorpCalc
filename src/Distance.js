@@ -20,7 +20,7 @@ class Distance extends React.Component {
             :
             console.log("error")
     }
-
+    
     render() {
         this.distCalc = this.state.mass / this.state.arch
         return (
