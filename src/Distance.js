@@ -1,7 +1,7 @@
 import React from "react"
 
 class Distance extends React.Component {
-
+    // here to test
     constructor(prop){
         super()
         this.state = {
@@ -20,7 +20,7 @@ class Distance extends React.Component {
             :
             console.log("error")
     }
-    
+
     render() {
         this.distCalc = this.state.mass / this.state.arch
         return (
