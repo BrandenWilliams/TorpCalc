@@ -46,8 +46,6 @@ class Distance extends React.Component {
             
         )
     }
-
-
 }
 
 export default Distance
