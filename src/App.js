@@ -13,32 +13,29 @@ class App extends React.Component {
             time: "5",
             zoomed: false,
         }
-        
         this.handleChange = this.handleChange.bind(this)
-        this.Distance = this.Distance.bind(this)
         this.handleShipChange = this.handleShipChange.bind(this)
+        this.Distance = this.Distance.bind(this)
+        this.Speed = this.Speed.bind(this)
         this.ShipMenu = this.ShipMenu.bind(this)
-
     }
 
     handleChange(event) {
-        this.setState({[event.target.name]: event.target.value}); 
+        const {name, value, type, checked} = event.target
+        type === "checkbox" ?
+            this.setState({
+                [name]: checked
+            })
+        :
+        this.setState({
+            [name]: value
+        })
     }
 
     handleShipChange(event) {
         this.setState({currentShipName: event.target.value})
         const currentShipObject = shipData.filter(shipObj => {
             return shipObj.name === event.target.value
-        })
-        this.setState({
-            mass: currentShipObject[0].mass,
-            length: currentShipObject[0].length
-        })
-    }
-
-    shipStatUpdate() {
-        const currentShipObject = shipData.filter(shipObj => {
-            return shipObj.name === this.state.currentShipName
         })
         this.setState({
             mass: currentShipObject[0].mass,
@@ -96,36 +93,36 @@ class App extends React.Component {
     }
 
     Speed(){
-        const speed = ""
-        this.state.zoomed === true ?
-        this.speed = (this.state.length / this.state.time) * 2
-        :
-        this.speed = this.state.length / this.state.time
+        const speed = this.state.zoomed === true ? 
+        this.speed = (2*(this.state.length / this.state.time)) 
+        : this.speed = (this.state.length / this.state.time)
         return (
             <div>
-                Enter Your Targets Length: 
-                <input 
-                    type="number"
-                    value={this.state.length}
-                    name="length"
-                    onChange={this.handleChange}
-                />
-                Enter Time: 
-                <input 
-                    type="number"
-                    value={this.state.time}
-                    name="time"
-                    onChange={this.handleChange}
-                />
-                Zoomed: 
-                <input 
-                    type="checkbox"
-                    name="zoomed"
-                    checked={this.state.zoomed === true}
-                    onChange={this.handleChange}
-                />
-                <p>Target Length / Time = Speed  (Zoom x2) </p>
-                <p>{this.state.length} / {this.state.time} = {speed}</p>
+                <form>
+                    Enter Your Targets Length: 
+                    <input 
+                        type="number"
+                        value={this.state.length}
+                        name="length"
+                        onChange={this.handleChange}
+                    />
+                    Enter Time: 
+                    <input 
+                        type="number"
+                        value={this.state.time}
+                        name="time"
+                        onChange={this.handleChange}
+                    />
+                    Zoomed: 
+                    <input 
+                        type="checkbox"
+                        name="zoomed"
+                        checked={this.state.zoomed === true}
+                        onChange={this.handleChange}
+                    />
+                    <p>Target Length / Time = Speed  (Zoom x2) </p>
+                    <p>{this.state.length} / {this.state.time} = {speed}</p>
+                </form>
             </div>        
         )
     }
