@@ -1,6 +1,9 @@
 import React from "react"
 import shipData from "./data/shipData.js"
 
+// need to change arch to Centiradians
+// 10 hectometers = 1000 meters
+
 class App extends React.Component {
     
     constructor() {
@@ -133,7 +136,6 @@ class App extends React.Component {
                 <this.ShipMenu />
                 <hr/>
                 <this.Distance />
-
                 <this.Speed />
             </div>
         )
