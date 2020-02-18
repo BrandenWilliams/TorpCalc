@@ -20,6 +20,7 @@ class App extends React.Component {
         this.Speed = this.Speed.bind(this)
         this.ShipMenu = this.ShipMenu.bind(this)
         this.buttonChange = this.buttonChange.bind(this)
+        this.currentStats = this.currentStats.bind(this)
     }
 
     handleChange(event) {
@@ -84,7 +85,7 @@ class App extends React.Component {
                         name="shipSearch"
                         onChange={this.handleChange} 
                         placeholder = "Search.. " 
-                    /> Current Ship Name: {this.state.currentShipName}
+                    />
                    <div> {menuData} </div>
                 </div>
             )
@@ -96,14 +97,13 @@ class App extends React.Component {
                     value={this.state.shipSearch}
                     name="shipSearch"
                     onChange={this.handleChange} 
-                    placeholder = "Search.. " 
-                /> Current Ship Name: {this.state.currentShipName}
+                    placeholder = "Search Ships... " 
+                />
             </div>
         )
     }
 
     Distance(){
-        const distance = (this.state.mass / this.state.centir)
         return (
             <div>
                 <form>
@@ -121,18 +121,12 @@ class App extends React.Component {
                         name="centir"
                         onChange={this.handleChange}
                     />
-                    <p>mass height / Centiradians = Distance </p>
-                    <p>Remember: 10 hectometers = 1000 meters</p>
-                    <p>{this.state.mass} / {this.state.centir} = {distance.toFixed(3)} Centiradians / {distance.toFixed(3) * 1000} Meters</p>
                 </form>
             </div>
         )
     }
 
     Speed(){
-        const speed = this.state.zoomed === true ? 
-        this.speed = (2*(this.state.length / this.state.time)) 
-        : this.speed = (this.state.length / this.state.time)
         return (
             <div>
                 <form>
@@ -157,16 +151,32 @@ class App extends React.Component {
                         checked={this.state.zoomed === true}
                         onChange={this.handleChange}
                     />
-                    <p>Target Length / Time = Speed  (Zoom x2) </p>
-                    <p>{this.state.length} / {this.state.time} = {speed.toFixed(2)}</p>
                 </form>
             </div>        
         )
     }
-
+    
+    currentStats(){
+        const speed = this.state.zoomed === true ? 
+        this.speed = (2*(this.state.length / this.state.time)) 
+        : this.speed = (this.state.length / this.state.time)
+        const distance = (this.state.mass / this.state.centir)
+        return(
+            <div> 
+                <p>Current Stats - Ship Name: {this.state.currentShipName} </p> 
+                Ships Mass Height: {this.state.mass}m | 
+                The Centiradians: {this.state.centir} | 
+                Distance: {distance.toFixed(2)}m | 
+                Ship Length: {this.state.length}m |
+                Time: {this.state.time} (in Seconds) |
+                Speed: {speed.toFixed(2)} Kn
+            </div>
+        )
+    }
     render() {
         return (
             <div>
+                <this.currentStats />
                 <this.ShipMenu />
                 <hr/>
                 <this.Distance />

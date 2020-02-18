@@ -405,7 +405,7 @@ const shipData = [
     {
         gid: 63,
         shipid: 54,
-        name: "Medium Tanker type 18",
+        name: "Medium Tanker type 21",
         length: 120,
         mass: 34,
         tons: 5936
@@ -413,7 +413,7 @@ const shipData = [
     {
         gid: 61,
         shipid: 55,
-        name: "Medium Tanker type 18",
+        name: "Medium Tanker type 23",
         length: 117,
         mass: 29,
         tons: 5838
@@ -437,7 +437,7 @@ const shipData = [
     {
         gid: 70,
         shipid: 58,
-        name: "Medium Tanker type 26",
+        name: "Medium Tanker type 27",
         length: 119,
         mass: 40,
         tons: 6436
