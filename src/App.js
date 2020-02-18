@@ -40,7 +40,6 @@ class App extends React.Component {
         })
     }
 
-
     handleShipChange(event) {
         this.setState({currentShipName: event.target.value})
         const currentShipObject = shipData.filter(shipObj => {
@@ -50,23 +49,33 @@ class App extends React.Component {
             mass: currentShipObject[0].mass,
             length: currentShipObject[0].length
         })
+        this.setState({
+            shipSearch: ""
+        })
     }
 
     ShipMenu() {
-        const menuData = shipData.map((
-            item) =>
-                <option
-                    key={item.shipid} 
-                    value={item.name}
-                >{item.name}
-                </option>
+
+        const slength = this.state.shipSearch.length
+        const menuData = shipData.map(
+            item => {
+                const itemUP = item.name.toUpperCase()
+                const compair = itemUP.slice(0, slength)
+                if(compair === this.state.shipSearch.toUpperCase()){
+                    return(
+                        <option
+                            key={item.shipid}
+                            name="currentShipName" 
+                            value={item.name}
+                            onClick={this.handleShipChange}
+                        >
+                        {item.name}
+                        </option>
+                    )
+                }
+            }
         )
-        const menu = ""
-        const lcshipSearch = this.state.shipSearch.toUpperCase()
-        console.log(lcshipSearch)
-        
         if (this.state.shipSearch.length !== 0) {
-            
             return (
                 <div>
                     <input 
@@ -75,8 +84,8 @@ class App extends React.Component {
                         name="shipSearch"
                         onChange={this.handleChange} 
                         placeholder = "Search.. " 
-                    />
-                   <div> yayaayyayaya </div>
+                    /> Current Ship Name: {this.state.currentShipName}
+                   <div> {menuData} </div>
                 </div>
             )
         }
@@ -88,22 +97,9 @@ class App extends React.Component {
                     name="shipSearch"
                     onChange={this.handleChange} 
                     placeholder = "Search.. " 
-                />
-                {menu}
+                /> Current Ship Name: {this.state.currentShipName}
             </div>
         )
-        
-        // return(
-        //     <form>
-        //         <label>
-        //             <select 
-        //                 value={this.state.currentShipName} 
-        //                 onChange={this.handleShipChange}
-        //             >{menuData}
-        //             </select>
-        //         </label>
-        //     </form>        
-        // )
     }
 
     Distance(){
@@ -127,7 +123,7 @@ class App extends React.Component {
                     />
                     <p>mass height / Centiradians = Distance </p>
                     <p>Remember: 10 hectometers = 1000 meters</p>
-                    <p>{this.state.mass} / {this.state.centir} = {distance} Centiradians / {distance * 1000} Meters</p>
+                    <p>{this.state.mass} / {this.state.centir} = {distance.toFixed(3)} Centiradians / {distance.toFixed(3) * 1000} Meters</p>
                 </form>
             </div>
         )
@@ -162,7 +158,7 @@ class App extends React.Component {
                         onChange={this.handleChange}
                     />
                     <p>Target Length / Time = Speed  (Zoom x2) </p>
-                    <p>{this.state.length} / {this.state.time} = {speed}</p>
+                    <p>{this.state.length} / {this.state.time} = {speed.toFixed(2)}</p>
                 </form>
             </div>        
         )

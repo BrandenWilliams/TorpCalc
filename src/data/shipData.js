@@ -1189,7 +1189,7 @@ const shipData = [
     },// 162 Heavy Tanker type 23 L 130 M/H 31 14994
     {
         gid: 141,
-        shipid: 9,
+        shipid: 151,
         name: "Heavy Tanker type 24",
         length: 142,
         mass: 37,
@@ -1197,7 +1197,7 @@ const shipData = [
     },// 141 Heavy Tanker type 24 L 142 M/H 37 12784
     {
         gid: 156,
-        shipid: 9,
+        shipid: 152,
         name: "Heavy Tanker type 25",
         length: 144,
         mass: 31,
@@ -1205,7 +1205,7 @@ const shipData = [
     },// 156 Heavy Tanker type 25 L 144 M/H 31 14538
     {
         gid: 169,
-        shipid: 9,
+        shipid: 153,
         name: "Heavy Tanker type 26",
         length: 147,
         mass: 35,
@@ -1213,7 +1213,7 @@ const shipData = [
     },// 169 Heavy Tanker type 26 L 147 M/H 35 15217
     {
         gid: 165,
-        shipid: 9,
+        shipid: 154,
         name: "Heavy Tanker type 27",
         length: 142,
         mass: 38,
@@ -1221,7 +1221,7 @@ const shipData = [
     },// 165 Heavy Tanker type 27 L 142 M/H 38 15067
     {
         gid: 170,
-        shipid: 9,
+        shipid: 155,
         name: "Heavy Tanker type 28",
         length: 147,
         mass: 38,
@@ -1229,7 +1229,7 @@ const shipData = [
     },// 170 Heavy Tanker type 28 L 147 M/H 38 15328
     {
         gid: 152,
-        shipid: 9,
+        shipid: 156,
         name: "Heavy Tanker type 29",
         length: 156,
         mass: 28,
@@ -1237,7 +1237,7 @@ const shipData = [
     },// 152 Heavy Tanker type 29 L 156 M/H 28 14057 
     {
         gid: 161,
-        shipid: 9,
+        shipid: 157,
         name: "Heavy Tanker type 30",
         length: 158,
         mass: 30,
@@ -1245,7 +1245,7 @@ const shipData = [
     },// 161 Heavy Tanker type 30 L 158 M/H 30 14989
     {
         gid: 164,
-        shipid: 9,
+        shipid: 158,
         name: "Heavy Tanker type 31",
         length: 156,
         mass: 51,
@@ -1253,7 +1253,7 @@ const shipData = [
     },// 164 Heavy Tanker type 31 L 156 M/H 51 15057
     {
         gid: 144,
-        shipid: 9,
+        shipid: 159,
         name: "Heavy Tanker type 32",
         length: 150,
         mass: 52,
@@ -1261,7 +1261,7 @@ const shipData = [
     },// 144 Heavy Tanker type 32 L 150 M/H 52 13426
     {
         gid: 157,
-        shipid: 9,
+        shipid: 160,
         name: "Heavy Tanker type 33",
         length: 138,
         mass: 36,
@@ -1269,7 +1269,7 @@ const shipData = [
     },// 157 Heavy Tanker type 33 L 138 M/H 36 14638 
     {
         gid: 148,
-        shipid: 9,
+        shipid: 161,
         name: "Heavy Tanker type 34",
         length: 133,
         mass: 34,
@@ -1277,7 +1277,7 @@ const shipData = [
     },// 148 Heavy Tanker type 34 L 133 M/H 34 13854 
     {
         gid: 150,
-        shipid: 9,
+        shipid: 162,
         name: "Heavy Tanker type 11",
         length: 155,
         mass: 37,
@@ -1288,7 +1288,7 @@ const shipData = [
 
     {
         gid: 174,
-        shipid: 9,
+        shipid: 163,
         name: "Requisitioned Trawler Type 1",
         length: 50,
         mass: 17,
@@ -1296,7 +1296,7 @@ const shipData = [
     },// 174 Requisitioned Trawler Type 1 L 50 M/H 17 538
     {
         gid: 178,
-        shipid: 9,
+        shipid: 164,
         name: "Requisitioned Trawler Type 2",
         length: 50,
         mass: 18,
@@ -1304,7 +1304,7 @@ const shipData = [
     },// 178 Requisitioned Trawler Type 2 L 50 M/H 18 574
     {
         gid: 172,
-        shipid: 9,
+        shipid: 165,
         name: "Requisitioned Trawler Type 3",
         length: 55,
         mass: 19,
@@ -1312,7 +1312,7 @@ const shipData = [
     },// 172 Requisitioned Trawler Type 3 L 55 M/H 19 497
     {
         gid: 171,
-        shipid: 9,
+        shipid: 166,
         name: "Requisitioned Trawler Type 12",
         length: 50,
         mass: 19,
@@ -1320,7 +1320,7 @@ const shipData = [
     },// 171 Requisitioned Trawler Type 12 L 50 M/H 19 397
     {
         gid: 173,
-        shipid: 9,
+        shipid: 167,
         name: "Requisitioned Trawler Type 14",
         length: 56,
         mass: 19,
@@ -1328,7 +1328,7 @@ const shipData = [
     }, // 173 Requisitioned Trawler Type 14 L 56 M/H 19 537
     {
         gid: 175,
-        shipid: 9,
+        shipid: 168,
         name: "Requisitioned Trawler Type 15",
         length: 55,
         mass: 19,
@@ -1336,7 +1336,7 @@ const shipData = [
     }, // 175 Requisitioned Trawler Type 15 L 55 M/H 19 538
     {
         gid: 176,
-        shipid: 9,
+        shipid: 169,
         name: "Requisitioned Trawler Type 17",
         length: 52,
         mass: 19,
@@ -1344,7 +1344,7 @@ const shipData = [
     }, // 176 Requisitioned Trawler Type 17 L 52 M/H 19 538
     {
         gid: 180,
-        shipid: 9,
+        shipid: 170,
         name: "Requisitioned Trawler Type 19",
         length: 58,
         mass: 17,
@@ -1352,7 +1352,7 @@ const shipData = [
     }, // 180 Requisitioned Trawler Type 19 L 58 M/H 17 690
     {
         gid: 177,
-        shipid: 9,
+        shipid: 171,
         name: "Requisitioned Trawler Type 22",
         length: 55,
         mass: 19,
@@ -1360,7 +1360,7 @@ const shipData = [
     }, // 177 Requisitioned Trawler Type 22 L 55 M/H 19 573 
     {
         gid: 179,
-        shipid: 9,
+        shipid: 172,
         name: "Requisitioned Trawler Type 28",
         length: 45,
         mass: 15,
@@ -1371,7 +1371,7 @@ const shipData = [
 
     {
         gid: 87,
-        shipid: 9,
+        shipid: 173,
         name: "Flower Class Corvette",
         length: 62,
         mass: 20,
@@ -1379,7 +1379,7 @@ const shipData = [
     },// 87 Flower Class Corvette L 62 M/H 20 925 
     {
         gid: 88,
-        shipid: 9,
+        shipid: 174,
         name: "Bittern Class Sloop",
         length: 81,
         mass: 23,
@@ -1387,7 +1387,7 @@ const shipData = [
     },// 88 Bittern Class Sloop L 81 M/H 23 1190
     {
         gid: 89,
-        shipid: 9,
+        shipid: 175,
         name: "Tribal Class Destroyer",
         length: 115,
         mass: 32,
@@ -1395,7 +1395,7 @@ const shipData = [
     },// 89 Tribal Class Destroyer L 115 M/H 32 2520
     {
         gid: 90,
-        shipid: 9,
+        shipid: 176,
         name: "Bogue Aircraft Carrier",
         length: 151,
         mass: 35,
