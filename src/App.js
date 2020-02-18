@@ -8,7 +8,7 @@ class App extends React.Component {
         this.state = {
             currentShipName: "Default",
             mass: "30",
-            arch: "3",
+            centir: "3",
             length: "150",
             time: "5",
             zoomed: false,
@@ -67,7 +67,7 @@ class App extends React.Component {
     }
 
     Distance(){
-        const distance = (this.state.mass / this.state.arch)
+        const distance = (this.state.mass / this.state.centir)
         return (
             <div>
                 <form>
@@ -78,15 +78,16 @@ class App extends React.Component {
                         name="mass"
                         onChange={this.handleChange}
                     />
-                    Enter Arch: 
+                    Enter Centiradians: 
                     <input 
                         type="number"
-                        value={this.state.arch}
-                        name="arch"
+                        value={this.state.centir}
+                        name="centir"
                         onChange={this.handleChange}
                     />
-                    <p>mass height / Arch height = Distance </p>
-                    <p>{this.state.mass} / {this.state.arch} = {distance}</p>
+                    <p>mass height / Centiradians = Distance </p>
+                    <p>Remember: 10 hectometers = 1000 meters</p>
+                    <p>{this.state.mass} / {this.state.centir} = {distance}</p>
                 </form>
             </div>
         )
@@ -133,7 +134,6 @@ class App extends React.Component {
                 <this.ShipMenu />
                 <hr/>
                 <this.Distance />
-
                 <this.Speed />
             </div>
         )
