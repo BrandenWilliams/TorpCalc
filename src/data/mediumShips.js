@@ -328,9 +328,8 @@ const mediumShips = [
     },// 84 Passenger Liner Type 8 L140 M/H 30 13855
 
 
+
     // ********************HEAVY FIGHTER START *************
-
-
     {
         gid: 96,
         shipid: 3,
@@ -341,44 +340,204 @@ const mediumShips = [
     }, // 96 Heavy Freighter Type 1 L 130 M/H 36 6545
     {
         gid: 97,
-        shipid: 3,
+        shipid: 2,
         name: "Heavy Freighter Type 2",
         length: 143,
         mass: 29,
         tons: 6545
     }, // 97 Heavy Freighter Type 2 L 143 M/H 29 6545
     {
-        gid: 93,
+        gid: 98,
         shipid: 3,
         name: "Heavy Freighter Type 3",
         length: 165,
         mass: 29,
         tons: 6545
     },// 98 Heavy Freighter Type 3 L 165 M/H 29 6545 
-
-    // 115 Heavy Freighter Type 4 L 135 M/H 28 8432
-    // 129 Heavy Freighter Type 5 L 134 M/H 34 9121  
-    // 130 Heavy Freighter Type 6 L 145 M/H 41 9402
-    // 121 Heavy Freighter Type 7 L 132 M/H 34 8795
-    // 127 Heavy Freighter Type 8 L 145 M/H 28 8938
-
+    {
+        gid: 115,
+        shipid: 4,
+        name: "Heavy Freighter Type 4",
+        length: 135,
+        mass: 28,
+        tons: 8432
+    },// 115 Heavy Freighter Type 4 L 135 M/H 28 8432
+    {
+        gid: 129,
+        shipid: 5,
+        name: "Heavy Freighter Type 5",
+        length: 134,
+        mass: 34,
+        tons: 9121
+    },// 129 Heavy Freighter Type 5 L 134 M/H 34 9121  
+    {
+        gid: 130,
+        shipid: 6,
+        name: "Heavy Freighter Type 6",
+        length: 145,
+        mass: 41,
+        tons: 9402
+    },// 130 Heavy Freighter Type 6 L 145 M/H 41 9402
+    {
+        gid: 121,
+        shipid: 7,
+        name: "Heavy Freighter Type 7",
+        length: 132,
+        mass: 34,
+        tons: 8795
+    },// 121 Heavy Freighter Type 7 L 132 M/H 34 8795
+    {
+        gid: 127,
+        shipid: 8,
+        name: "Heavy Freighter Type 8",
+        length: 145,
+        mass: 28,
+        tons: 8938
+    },// 127 Heavy Freighter Type 8 L 145 M/H 28 8938
     {
         gid: 84,
-        shipid: 3,
+        shipid: 9,
         name: "Heavy Freighter Type 9",
         length: 134,
         mass: 37,
         tons: 8464
     }, // 84 Heavy Freighter Type 9 L 134 M/H 37 8462
     {
+        gid: 106,
+        shipid: 9,
+        name: "Heavy Freighter Type 10",
+        length: 128,
+        mass: 34,
+        tons: 7372
+    },// 106 Heavy Freighter Type 10 L 128 M/H 34 7372
+    {
+        gid: 84,
+        shipid: 9,
+        name: "Heavy Freighter Type 11",
+        length: 142,
+        mass: 35,
+        tons: 8272
+    },// 112 Heavy Freighter Type 11 L 142 M/H 35 8272
+    {
+        gid: 104,
+        shipid: 12,
+        name: "Heavy Freighter Type 12",
+        length: 125,
+        mass: 35,
+        tons: 7295
+    }, // 104 Heavy Freighter Type 12 L 125 M/H 35 7295
+    {
+        gid: 120,
+        shipid: 13,
+        name: "Heavy Freighter Type 13",
+        length: 138,
+        mass: 37,
+        tons: 8748
+    },// 120 Heavy Freighter Type 13 L 138 M/H 37 8748
+    {
+        gid: 116,
+        shipid: 14,
+        name: "Heavy Freighter Type 14",
+        length: 137,
+        mass: 35,
+        tons: 8463
+    },// 116 Heavy Freighter Type 14 L 137 M/H 35 8463
+    {
+        gid: 114,
+        shipid: 15,
+        name: "Heavy Freighter Type 15",
+        length: 138,
+        mass: 40,
+        tons: 8386
+    },// 114 Heavy Freighter Type 15 L 138 M/H 40 8386
+    {
+        gid: 109,
+        shipid: 16,
+        name: "Heavy Freighter Type 16",
+        length: 125,
+        mass: 41,
+        tons: 7835
+    },// 109 Heavy Freighter Type 16 L 125 M/H 41 7835
+    {
+        gid: 102,
+        shipid: 17,
+        name: "Heavy Freighter Type 17",
+        length: 128,
+        mass: 34,
+        tons: 7254
+    },// 102 Heavy Freighter Type 17 L 128 M/H 34 7254
+    {
+        gid: 101,
+        shipid: 9,
+        name: "Heavy Freighter Type 18",
+        length: 124,
+        mass: 35,
+        tons: 7129
+    },// 101 Heavy Freighter Type 18 L 124 M/H 35 7129
+    {
+        gid: 111,
+        shipid: 19,
+        name: "Heavy Freighter Type 19",
+        length: 135,
+        mass: 36,
+        tons: 8068
+    },// 111 Heavy Freighter Type 19 L 135 M/H 36 8068
+    {
+        gid: 126,
+        shipid: 20,
+        name: "Heavy Freighter Type 20",
+        length: 137,
+        mass: 41,
+        tons: 8925
+    },// 126 Heavy Freighter Type 20 L 137 M/H 41 8925
+    {
+        gid: 108,
+        shipid: 21,
+        name: "Heavy Freighter Type 21",
+        length: 130,
+        mass: 39,
+        tons: 7438
+    },// 108 Heavy Freighter Type 21 L 130 M/H 39 7438
+    {
+        gid: 119,
+        shipid: 22,
+        name: "Heavy Freighter Type 22",
+        length: 139,
+        mass: 38,
+        tons: 8548
+    },// 119 Heavy Freighter Type 22 L 139 M/H 38 8548
+    {
+        gid: 131,
+        shipid: 23,
+        name: "Heavy Freighter Type 23",
+        length: 142,
+        mass: 33,
+        tons: 9482
+    },// 131 Heavy Freighter Type 23 L 142 M/H 33 9482
+    {
+        gid: 117,
+        shipid: 24,
+        name: "Heavy Freighter Type 24",
+        length: 132,
+        mass: 34,
+        tons: 8472
+    },// 117 Heavy Freighter Type 24 L 132 M/H 34 8472
+    {
+        gid: 128,
+        shipid: 25,
+        name: "Heavy Freighter Type 25",
+        length: 141,
+        mass: 44,
+        tons: 9015
+    },// 128 Heavy Freighter Type 25 L 141 M/H 44 9015 
+    {
         gid: 91,
-        shipid: 3,
+        shipid: 26,
         name: "Heavy Freighter Type 26",
         length: 109,
         mass: 29,
         tons: 5012
-    },// 91 Heavy Freighter Type 26 L 109 M/H 29 5012
-    
+    },// 91 Heavy Freighter Type 26 L 109 M/H 29 5012  
     {
         gid: 92,
         shipid: 3,
@@ -387,9 +546,126 @@ const mediumShips = [
         mass: 33,
         tons: 6015
     }, // 92 Heavy Freighter Type 27 L 115 M/H 33 6015
-
-    // 99 Heavy Freighter Type 29 L 117 M/H 27 6915  
-    // 100 Heavy Freighter Type 28 L 111 M/H 34 7019
+    {
+        gid: 100,
+        shipid: 28,
+        name: "Heavy Freighter Type 28",
+        length: 165,
+        mass: 29,
+        tons: 6545
+    },// 100 Heavy Freighter Type 28 L 111 M/H 34 7019
+    {
+        gid: 99,
+        shipid: 29,
+        name: "Heavy Freighter Type 29",
+        length: 117,
+        mass: 27,
+        tons: 6915
+    },// 99 Heavy Freighter Type 29 L 117 M/H 27 6915
+    {
+        gid: 118,
+        shipid: 9,
+        name: "Heavy Freighter Type 30",
+        length: 122,
+        mass: 28,
+        tons: 8518
+    },// 118 Heavy Freighter Type 30 L 122 M/H 28 8518
+    {
+        gid: 125,
+        shipid: 9,
+        name: "Heavy Freighter Type 31",
+        length: 122,
+        mass: 34,
+        tons: 8915
+    },// 125 Heavy Freighter Type 31 L 122 M/H 34 8915
+    {
+        gid: 113,
+        shipid: 9,
+        name: "Heavy Freighter Type 32",
+        length: 132,
+        mass: 35,
+        tons: 8367
+    },// 113 Heavy Freighter Type 32 L 132 M/H 35 8367
+    {
+        gid: 110,
+        shipid: 9,
+        name: "Heavy Freighter Type 33",
+        length: 136,
+        mass: 36,
+        tons: 7925
+    },// 110 Heavy Freighter Type 33 L 128 M/H 36 7925
+    {
+        gid: 123,
+        shipid: 9,
+        name: "Heavy Freighter Type 34",
+        length: 130,
+        mass: 35,
+        tons: 8912
+    },// 123 Heavy Freighter Type 34 L 130 M/H 35 8912 
+    {
+        gid: 122,
+        shipid: 9,
+        name: "Heavy Freighter Type 35",
+        length: 138,
+        mass: 39,
+        tons: 8816
+    },// 122 Heavy Freighter Type 35 L 138 M/H 39 8816  
+    {
+        gid: 132,
+        shipid: 36,
+        name: "Heavy Freighter Type 36",
+        length: 144,
+        mass: 26,
+        tons: 9518
+    },// 132 Heavy Freighter Type 36 L 144 M/H 26 9518
+    {
+        gid: 135,
+        shipid: 9,
+        name: "Heavy Freighter Type 37",
+        length: 141,
+        mass: 34,
+        tons: 9816
+    },// 135 Heavy Freighter Type 37 L 141 M/H 34 9816  
+    {
+        gid: 124,
+        shipid: 9,
+        name: "Heavy Freighter Type 38",
+        length: 133,
+        mass: 35,
+        tons: 8914
+    },// 124 Heavy Freighter Type 38 L 133 M/H 35 8914 
+    {
+        gid: 134,
+        shipid: 39,
+        name: "Heavy Freighter Type 39",
+        length: 144,
+        mass: 31,
+        tons: 9547
+    },// 134 Heavy Freighter Type 39 L 144 M/H 31 9547
+    {
+        gid: 105,
+        shipid: 9,
+        name: "Heavy Freighter Type 40",
+        length: 130,
+        mass: 36,
+        tons: 7352
+    },// 105 Heavy Freighter Type 40 L 130 M/H 36 7352 
+    {
+        gid: 103,
+        shipid: 9,
+        name: "Heavy Freighter Type 41",
+        length: 137,
+        mass: 36,
+        tons: 7256
+    },// 103 Heavy Freighter Type 41 L 137 M/H 36 7256
+    {
+        gid: 107,
+        shipid: 42,
+        name: "Heavy Freighter Type 42",
+        length: 128,
+        mass: 32,
+        tons: 7375
+    },// 107 Heavy Freighter Type 42 L 128 M/H 32 7375
     {
         gid: 93,
         shipid: 3,
@@ -414,97 +690,417 @@ const mediumShips = [
         mass: 35,
         tons: 6243
     },// 94 Heavy Freighter Type 45 L 124 M/H 35 6363 
+    {
+        gid: 133,
+        shipid: 9,
+        name: "Heavy Freighter Type 46",
+        length: 145,
+        mass: 36,
+        tons: 9543
+    },// 133 Heavy Freighter Type 46 L 145 M/H 36 9543
     
-  
-    // 101 Heavy Freighter Type 18 L 124 M/H 35 7129
-    // 102 Heavy Freighter Type 17 L 128 M/H 34 7254
-    // 103 Heavy Freighter Type 41 L 137 M/H 36 7256
-    // 104 Heavy Freighter Type 12 L 125 M/H 35 7295
-    // 105 Heavy Freighter Type 40 L 130M/H 36 7352 
-    // 106 Heavy Freighter Type 10 L 128 M/H 34 7372
-    // 107 Heavy Freighter Type 42 L 128 M/H 32 7375
-    // 108 Heavy Freighter Type 21 L 130 M/H 39 7438
-    // 109 Heavy Freighter Type 16 L 125 M/H 41 7835
-    // 110 Heavy Freighter Type 33 L 128 M/H 36 7925
-    // 111 Heavy Freighter Type 19 L 135 M/H 36 8068
-    // 112 Heavy Freighter Type 11 L 142 M/H 35 8272
-    // 113 Heavy Freighter Type 32 L 132 M/H 35 8367
-    // 114 Heavy Freighter Type 15 L 138 M/H 40 8386
+    // *************** HEAVY TANKERS ****************
+    {
+        gid: 142,
+        shipid: 9,
+        name: "Heavy Tanker type 1",
+        length: 142,
+        mass: 26,
+        tons: 12942
+    },// 142 Heavy Tanker type 1 L 142 M/H 26 12942
+    {
+        gid: 138,
+        shipid: 9,
+        name: "Heavy Tanker type 2",
+        length: 138,
+        mass: 46,
+        tons: 11445
+    },// 138 Heavy Tanker type 2 L 138 M/H 46 11445
+    {
+        gid: 147,
+        shipid: 9,
+        name: "Heavy Tanker type 3",
+        length: 145,
+        mass: 49,
+        tons: 13637
+    },// 147 Heavy Tanker type 3 L 145 M/H 49 13637
+    {
+        gid: 140,
+        shipid: 9,
+        name: "Heavy Tanker type 4",
+        length: 144,
+        mass: 47,
+        tons: 12738
+    },// 140 Heavy Tanker type 4 L 144 M/H 47 12738
+    {
+        gid: 149,
+        shipid: 9,
+        name: "Heavy Tanker type 5",
+        length: 140,
+        mass: 35,
+        tons: 13935
+    },// 149 Heavy Tanker type 5 L 140 M/H 35 13935
+    {
+        gid: 155,
+        shipid: 9,
+        name: "Heavy Tanker type 6",
+        length: 142,
+        mass: 24,
+        tons: 14365
+    },// 155 Heavy Tanker type 6 L 142 M/H 24 14365
+    {
+        gid: 159,
+        shipid: 9,
+        name: "Heavy Tanker type 7",
+        length: 150,
+        mass: 40,
+        tons: 14946
+    }, // 159 Heavy Tanker type 7 L 150 M/H 40 14946
+    {
+        gid: 163,
+        shipid: 9,
+        name: "Heavy Tanker type 8",
+        length: 152,
+        mass: 41,
+        tons: 15018
+    },// 163 Heavy Tanker type 8 L 152 M/H 41 15018 
+    {
+        gid: 153,
+        shipid: 9,
+        name: "Heavy Tanker type 9",
+        length: 149,
+        mass: 37,
+        tons: 14126
+    },// 153 Heavy Tanker type 9 L 149 M/H 37 14126
+    {
+        gid: 145,
+        shipid: 9,
+        name: "Heavy Tanker type 10",
+        length: 153,
+        mass: 38,
+        tons: 13636
+    },// 145 Heavy Tanker type 10 L 153 M/H 38 13636
+    {
+        gid: 150,
+        shipid: 9,
+        name: "Heavy Tanker type 11",
+        length: 155,
+        mass: 37,
+        tons: 13957
+    },// 150 Heavy Tanker type 11 L 155 M/H 37 13957
+    {
+        gid: 158,
+        shipid: 9,
+        name: "Heavy Tanker type 12",
+        length: 150,
+        mass: 28,
+        tons: 14923
+    },// 158 Heavy Tanker type 12 L 150 M/H 28 14923
+    {
+        gid: 168,
+        shipid: 9,
+        name: "Heavy Tanker type 13",
+        length: 145,
+        mass: 28,
+        tons: 15204
+    },// 168 Heavy Tanker type 13 L 145 M/H 28 15204
+    {
+        gid: 150,
+        shipid: 9,
+        name: "Heavy Tanker type 14",
+        length: 139,
+        mass: 46,
+        tons: 11209
+    },// 137 Heavy Tanker type 14 L 139 M/H 46 11209
+    {
+        gid: 139,
+        shipid: 9,
+        name: "Heavy Tanker type 15",
+        length: 134,
+        mass: 43,
+        tons: 12537
+    },// 139 Heavy Tanker type 15 L 134 M/H 43 12537
+    {
+        gid: 136,
+        shipid: 9,
+        name: "Heavy Tanker type 16",
+        length: 137,
+        mass: 42,
+        tons: 11099
+    },// 136 Heavy Tanker type 16 L 137 M/H 42 11099
+    {
+        gid: 146,
+        shipid: 9,
+        name: "Heavy Tanker type 17",
+        length: 132,
+        mass: 44,
+        tons: 13636
+    },// 146 Heavy Tanker type 17 L 132 M/H 44 13636
+    {
+        gid: 154,
+        shipid: 18,
+        name: "Heavy Tanker type 18",
+        length: 130,
+        mass: 41,
+        tons: 14254
+    }, // 154 Heavy Tanker type 18 L 130 M/H 41 14254
+    {
+        gid: 166,
+        shipid: 9,
+        name: "Heavy Tanker type 19",
+        length: 129,
+        mass: 36,
+        tons: 15098
+    },// 166 Heavy Tanker type 19 L 129 M/H 36 15098
+    {
+        gid: 160,
+        shipid: 9,
+        name: "Heavy Tanker type 20",
+        length: 125,
+        mass: 47,
+        tons: 14956
+    },// 160 Heavy Tanker type 20 L 125 M/H 47 14956
+    {
+        gid: 143,
+        shipid: 9,
+        name: "Heavy Tanker type 21",
+        length: 127,
+        mass: 38,
+        tons: 13386
+    },// 143 Heavy Tanker type 21 L 127 M/H 38 13386
+    {
+        gid: 151,
+        shipid: 9,
+        name: "Heavy Tanker type 22",
+        length: 125,
+        mass: 34,
+        tons: 14056
+    },// 151 Heavy Tanker type 22 L 125 M/H 34 14056
+    {
+        gid: 162,
+        shipid: 9,
+        name: "Heavy Tanker type 23",
+        length: 130,
+        mass: 31,
+        tons: 14994
+    },// 162 Heavy Tanker type 23 L 130 M/H 31 14994
+    {
+        gid: 141,
+        shipid: 9,
+        name: "Heavy Tanker type 24",
+        length: 142,
+        mass: 37,
+        tons: 12784
+    },// 141 Heavy Tanker type 24 L 142 M/H 37 12784
+    {
+        gid: 156,
+        shipid: 9,
+        name: "Heavy Tanker type 25",
+        length: 144,
+        mass: 31,
+        tons: 14538
+    },// 156 Heavy Tanker type 25 L 144 M/H 31 14538
+    {
+        gid: 169,
+        shipid: 9,
+        name: "Heavy Tanker type 26",
+        length: 147,
+        mass: 35,
+        tons: 15217
+    },// 169 Heavy Tanker type 26 L 147 M/H 35 15217
+    {
+        gid: 165,
+        shipid: 9,
+        name: "Heavy Tanker type 27",
+        length: 142,
+        mass: 38,
+        tons: 15067
+    },// 165 Heavy Tanker type 27 L 142 M/H 38 15067
+    {
+        gid: 170,
+        shipid: 9,
+        name: "Heavy Tanker type 28",
+        length: 147,
+        mass: 38,
+        tons: 15328
+    },// 170 Heavy Tanker type 28 L 147 M/H 38 15328
+    {
+        gid: 152,
+        shipid: 9,
+        name: "Heavy Tanker type 29",
+        length: 156,
+        mass: 28,
+        tons: 14057
+    },// 152 Heavy Tanker type 29 L 156 M/H 28 14057 
+    {
+        gid: 161,
+        shipid: 9,
+        name: "Heavy Tanker type 30",
+        length: 158,
+        mass: 30,
+        tons: 14989
+    },// 161 Heavy Tanker type 30 L 158 M/H 30 14989
+    {
+        gid: 164,
+        shipid: 9,
+        name: "Heavy Tanker type 31",
+        length: 156,
+        mass: 51,
+        tons: 15057
+    },// 164 Heavy Tanker type 31 L 156 M/H 51 15057
+    {
+        gid: 144,
+        shipid: 9,
+        name: "Heavy Tanker type 32",
+        length: 150,
+        mass: 52,
+        tons: 13426
+    },// 144 Heavy Tanker type 32 L 150 M/H 52 13426
+    {
+        gid: 157,
+        shipid: 9,
+        name: "Heavy Tanker type 33",
+        length: 138,
+        mass: 36,
+        tons: 14638
+    },// 157 Heavy Tanker type 33 L 138 M/H 36 14638 
+    {
+        gid: 148,
+        shipid: 9,
+        name: "Heavy Tanker type 34",
+        length: 133,
+        mass: 34,
+        tons: 13854
+    },// 148 Heavy Tanker type 34 L 133 M/H 34 13854 
+    {
+        gid: 150,
+        shipid: 9,
+        name: "Heavy Tanker type 11",
+        length: 155,
+        mass: 37,
+        tons: 13957
+    }, // 167 Heavy Tanker type 35 L 144 M/H 38 15185
     
-    // 116 Heavy Freighter Type 14 L 137 M/H 35 8463
-    // 117 Heavy Freighter Type 24 L 132 M/H 34 8472 
-    // 118 Heavy Freighter Type 30 L 122 M/H 28 8518
-    // 119 Heavy Freighter Type 22 L 139 M/H 38 8548
-    // 120 Heavy Freighter Type 13 L 138 M/H 37 8748
-     
-    // 122 Heavy Freighter Type 35 L 138 M/H 39 8816  
-    // 123 Heavy Freighter Type 34 L 130 M/H 35 8912  
-    // 124 Heavy Freighter Type 38 L 133 M/H 35 8914 
-    // 125 Heavy Freighter Type 31 L 122 M/H 34 8915
-    // 126 Heavy Freighter Type 20 L 137 M/H 41 8925
-      
-    // 128 Heavy Freighter Type 25 L 141 M/H 44 9015
-      
-    // 131 Heavy Freighter Type 23 L 142 M/H 33 9482
-    // 132 Heavy Freighter Type 36 L 144 M/H 26 9518 
-    // 133 Heavy Freighter Type 46 L 145 M/H 36 9543
-    // 134 Heavy Freighter Type 39 L 144 M/H 31 9547
-    // 135 Heavy Freighter Type 37 L 141 M/H 34 9816
+    // ********************** Requisitioned Trawler ********************* 
+    {
+        gid: 174,
+        shipid: 9,
+        name: "Requisitioned Trawler Type 1",
+        length: 50,
+        mass: 17,
+        tons: 538
+    },// 174 Requisitioned Trawler Type 1 L 50 M/H 17 538
+    {
+        gid: 178,
+        shipid: 9,
+        name: "Requisitioned Trawler Type 2",
+        length: 50,
+        mass: 18,
+        tons: 574
+    },// 178 Requisitioned Trawler Type 2 L 50 M/H 18 574
+    {
+        gid: 172,
+        shipid: 9,
+        name: "Requisitioned Trawler Type 3",
+        length: 55,
+        mass: 19,
+        tons: 497
+    },// 172 Requisitioned Trawler Type 3 L 55 M/H 19 497
+    {
+        gid: 171,
+        shipid: 9,
+        name: "Requisitioned Trawler Type 12",
+        length: 50,
+        mass: 19,
+        tons: 397
+    },// 171 Requisitioned Trawler Type 12 L 50 M/H 19 397
+    {
+        gid: 173,
+        shipid: 9,
+        name: "Requisitioned Trawler Type 14",
+        length: 56,
+        mass: 19,
+        tons: 537
+    }, // 173 Requisitioned Trawler Type 14 L 56 M/H 19 537
+    {
+        gid: 175,
+        shipid: 9,
+        name: "Requisitioned Trawler Type 15",
+        length: 55,
+        mass: 19,
+        tons: 538
+    }, // 175 Requisitioned Trawler Type 15 L 55 M/H 19 538
+    {
+        gid: 176,
+        shipid: 9,
+        name: "Requisitioned Trawler Type 17",
+        length: 52,
+        mass: 19,
+        tons: 538
+    }, // 176 Requisitioned Trawler Type 17 L 52 M/H 19 538
+    {
+        gid: 180,
+        shipid: 9,
+        name: "Requisitioned Trawler Type 19",
+        length: 58,
+        mass: 17,
+        tons: 690
+    }, // 180 Requisitioned Trawler Type 19 L 58 M/H 17 690
+    {
+        gid: 177,
+        shipid: 9,
+        name: "Requisitioned Trawler Type 22",
+        length: 55,
+        mass: 19,
+        tons: 573
+    }, // 177 Requisitioned Trawler Type 22 L 55 M/H 19 573 
+    {
+        gid: 179,
+        shipid: 9,
+        name: "Requisitioned Trawler Type 28",
+        length: 45,
+        mass: 15,
+        tons: 636
+    },// 179 Requisitioned Trawler Type 28 L 45 M/H 15 636 
+    
+    // *********************** WARSHIPS ****************************
 
-    // 136 Heavy Tanker type 16 L 137 M/H 42 11099
-    // 137 H TNK – 14 L 139 M/H 46 11209
-    // 138 H TNK – 2 L 138 M/H 46 11445
-    // 139 H TNK – 15 L 134 M/H 43 12537
-    // 140 H TNK – 4 L 144 M/H 47 12738
-    // 141 H TNK – 24 L 142 M/H 37 12784
-    // 142 H TNK – 1 L 142 M/H 26 12942
-    // 143 H TNK – 21 L 127 M/H 38 13386
-    // 144 H TNK – 32 L 150 M/H 52 13426
-    // 145 H TNK – 10 L 153 M/H 38 13636 
-    // 146 H TNK – 17 L 132 M/H 44 13636 
-    // 147 H TNK – 3 L 145 M/H 49 13637 
-    // 148 H TNK – 34 L 133 M/H 34 13854 
-    // 149 H TNK – 5 L 140 M/H 35 13935
-    // 150 H TNK – 11 L 155 M/H 37 13957 
-    // 151 H TNK – 22 L 125 M/H 34 14056 
-    // 152 H TNK – 29 L 156 M/H 28 14057 
-    // 153 H TNK – 9 L 149 M/H 37 14126 
-    // 154 H TNK – 18 L 130 M/H 41 14254 
-    // 155 H TNK – 6 L 142 M/H 24 14365
-    // 156 H TNK – 25 L 144 M/H 31 14538
-    // 157 H TNK – 33 L 138 M/H 36 14638
-    // 158 H TNK – 12 L 150 M/H 28 14923
-    // 159 H TNK – 7 L 150 M/H 40 14946
-    // 160 H TNK – 20 L 125 M/H 47 14956
-    // 161 H TNK – 30 L 158 M/H 30 14989 
-    // 162 H TNK – 23 L 130 M/H 31 14994 
-    // 163 H TNK – 8 L 152 M/H 41 15018 
-    // 164 H TNK – 31 L 156 M/H 51 15057 
-    // 165 H TNK – 27 L 142 M/H 38 15067
-    // 166 H TNK – 19 L 129 M/H 36 15098
-    // 167 H TNK – 35 L 144 M/H 38 15185
-    // 168 H TNK – 13 L 145 M/H 28 15204
-    // 169 H TNK – 26 L 147 M/H 35 15217
-    // 170 H TNK – 28 L 147 M/H 38 15328
-
-
-    // 171 Requisitioned Trawler – 12 L 50 M/H 19 397
-    // 172 R TWRL – 3 L 55 M/H 19 497
-    // 173 R TWRL – 14 L 56 M/H 19 537
-    // 174 R TWRL – 1 L 50 M/H 17 538
-    // 175 R TWRL – 15 L 55 M/H 19 538
-    // 176 R TWRL – 17 L 52 M/H 19 538
-    // 177 R TWRL – 22 L 55 M/H 19 573 
-    // 178 R TWRL – 2 L 50 M/H 18 574 
-    // 179 R TWRL – 28 L 45 M/H 15 636 
-    // 180 R TWRL – 19 L 58 M/H 17 690
+    {
+        gid: 87,
+        shipid: 9,
+        name: "Flower Class Corvette",
+        length: 62,
+        mass: 20,
+        tons: 925
+    },// 87 Flower Class Corvette L 62 M/H 20 925 
+    {
+        gid: 88,
+        shipid: 9,
+        name: "Bittern Class Sloop",
+        length: 81,
+        mass: 23,
+        tons: 1190
+    },// 88 Bittern Class Sloop L 81 M/H 23 1190
+    {
+        gid: 89,
+        shipid: 9,
+        name: "Tribal Class Destroyer",
+        length: 115,
+        mass: 32,
+        tons: 2520
+    },// 89 Tribal Class Destroyer L 115 M/H 32 2520
+    {
+        gid: 90,
+        shipid: 9,
+        name: "Bogue Aircraft Carrier",
+        length: 151,
+        mass: 35,
+        tons: 16620
+    },// 90 Bogue Aircraft Carrier L 151 M/H 35 16620
 
 ]
 
 export default mediumShips
 
 
-    // 87 Flower Class Corvette L 62 M/H 20 925 
-    // 88 Bittern Class Sloop L 81 M/H 23 1190
-    // 89 Tribal Class Destroyer L 115 M/H 32 2520
-    // 90 Bogue Aircraft Carrier L 151 M/H 35 16620
+    
