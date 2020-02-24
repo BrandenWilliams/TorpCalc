@@ -1,0 +1,31 @@
+body {
+    font-size: 1em;
+}
+.statbox {
+    float: right;
+}
+.stat-title {
+    font-size: 2em;
+}
+
+.searchdrop{
+    position: relative;
+    display: inline-block;
+}
+
+.dropitems {
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+
+.dropitems option {
+    color: black;
+    padding: 1% 1% 1% 1%;
+    text-decoration: none;
+    display: block;
+}
+
+.dropitems option:hover {background-color: #ddd;}

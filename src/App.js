@@ -1,5 +1,6 @@
 import React from "react"
 import shipData from "./data/shipData.js"
+import "./index.css"
 
 class App extends React.Component {
     
@@ -16,10 +17,9 @@ class App extends React.Component {
         }
         this.handleChange = this.handleChange.bind(this)
         this.handleShipChange = this.handleShipChange.bind(this)
+        this.ShipSearch = this.ShipSearch.bind(this)
         this.Distance = this.Distance.bind(this)
         this.Speed = this.Speed.bind(this)
-        this.ShipMenu = this.ShipMenu.bind(this)
-        this.buttonChange = this.buttonChange.bind(this)
         this.currentStats = this.currentStats.bind(this)
     }
 
@@ -32,12 +32,6 @@ class App extends React.Component {
         :
         this.setState({
             [name]: value
-        })
-    }
-    
-    buttonChange(event) {
-        this.setState({
-            dmenu: !this.state.dmenu
         })
     }
 
@@ -55,8 +49,7 @@ class App extends React.Component {
         })
     }
 
-    ShipMenu() {
-
+    ShipSearch() {
         const slength = this.state.shipSearch.length
         const menuData = shipData.map(
             item => {
@@ -78,7 +71,7 @@ class App extends React.Component {
         )
         if (this.state.shipSearch.length !== 0) {
             return (
-                <div>
+                <div className="searchdrop">
                     <input 
                         type="text"
                         value={this.state.shipSearch}
@@ -86,12 +79,12 @@ class App extends React.Component {
                         onChange={this.handleChange} 
                         placeholder = "Search.. " 
                     />
-                   <div> {menuData} </div>
+                   <div  className="dropitems"> {menuData} </div>
                 </div>
             )
         }
         return (
-            <div>
+            <div className="searchdrop">
                 <input 
                     type="text"
                     value={this.state.shipSearch}
@@ -107,20 +100,24 @@ class App extends React.Component {
         return (
             <div>
                 <form>
-                    Enter Mass Height: 
-                    <input 
-                        type="number"
-                        value={this.state.mass}
-                        name="mass"
-                        onChange={this.handleChange}
-                    />
-                    Enter Centiradians: 
-                    <input 
-                        type="number"
-                        value={this.state.centir}
-                        name="centir"
-                        onChange={this.handleChange}
-                    />
+                    <div>
+                        Enter Mass Height: 
+                        <input 
+                            type="number"
+                            value={this.state.mass}
+                            name="mass"
+                            onChange={this.handleChange}
+                        />
+                    </div>
+                    <div>
+                        Enter Centiradians: 
+                        <input 
+                            type="number"
+                            value={this.state.centir}
+                            name="centir"
+                            onChange={this.handleChange}
+                        />
+                    </div>
                 </form>
             </div>
         )
@@ -130,27 +127,33 @@ class App extends React.Component {
         return (
             <div>
                 <form>
-                    Enter Your Targets Length: 
-                    <input 
-                        type="number"
-                        value={this.state.length}
-                        name="length"
-                        onChange={this.handleChange}
-                    />
-                    Enter Time: 
-                    <input 
-                        type="number"
-                        value={this.state.time}
-                        name="time"
-                        onChange={this.handleChange}
-                    />
-                    Zoomed: 
-                    <input 
-                        type="checkbox"
-                        name="zoomed"
-                        checked={this.state.zoomed === true}
-                        onChange={this.handleChange}
-                    />
+                    <div>
+                        Enter Your Targets Length: 
+                        <input 
+                            type="number"
+                            value={this.state.length}
+                            name="length"
+                            onChange={this.handleChange}
+                        />
+                    </div>
+                    <div>
+                        Enter Time: 
+                        <input 
+                            type="number"
+                            value={this.state.time}
+                            name="time"
+                            onChange={this.handleChange}
+                        />
+                    </div>
+                    <div>
+                        Zoomed: 
+                        <input 
+                            type="checkbox"
+                            name="zoomed"
+                            checked={this.state.zoomed === true}
+                            onChange={this.handleChange}
+                        />
+                    </div>
                 </form>
             </div>        
         )
@@ -161,24 +164,26 @@ class App extends React.Component {
         this.speed = (2*(this.state.length / this.state.time)) 
         : this.speed = (this.state.length / this.state.time)
         const distance = (this.state.mass / this.state.centir)
-        return(
-            <div> 
-                <p>Current Stats - Ship Name: {this.state.currentShipName} </p> 
-                Ships Mass Height: {this.state.mass}m | 
-                The Centiradians: {this.state.centir} | 
-                Distance: {distance.toFixed(2)}m | 
-                Ship Length: {this.state.length}m |
-                Time: {this.state.time} (in Seconds) |
-                Speed: {speed.toFixed(2)} Kn
+        return (
+            <div className="statbox"> 
+                <div className="stat-title"> Current Stats</div>
+                <div>Ship Name: {this.state.currentShipName}</div>
+                <div>Ships Mass Height: {this.state.mass}m</div>
+                <div>The Centiradians: {this.state.centir}</div>                
+                <div>Ship Length: {this.state.length}m</div>
+                <div>Time: {this.state.time} (in Seconds)</div>
+                <div>Distance: {distance.toFixed(2)}m</div>
+                <div>Speed: {speed.toFixed(2)} Kn</div>
             </div>
         )
     }
+
     render() {
         return (
             <div>
                 <this.currentStats />
-                <this.ShipMenu />
-                <hr/>
+                <this.ShipSearch />
+                
                 <this.Distance />
                 <this.Speed />
             </div>
